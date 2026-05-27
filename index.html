@@ -3,132 +3,198 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FlowMane | Recruit Funnel OS</title>
+    <title>ライバー募集 | 未経験から配信デビュー</title>
     <meta
       name="description"
-      content="FlowManeは、流入から初配信までの応募者進捗を一元管理するリクルートファネルOSです。"
+      content="スマホひとつから始められるライバー募集LP。希望アプリや活動スタイルを相談しながら、初配信までマネージャーが伴走します。"
     />
-    <meta property="og:title" content="FlowMane | Recruit Funnel OS" />
+    <meta property="og:title" content="ライバー募集 | 未経験から配信デビュー" />
     <meta
       property="og:description"
-      content="LINE流入、担当割当、電話結果、獲得までをひとつの画面で追跡。"
+      content="未経験でも相談OK。LINE応募からヒアリング、初回相談、初配信準備までサポートします。"
     />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/liver-hero.png" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='8' fill='%23e5252a'/%3E%3Ctext x='24' y='31' text-anchor='middle' font-family='Arial' font-size='18' font-weight='700' fill='white'%3ELV%3C/text%3E%3C/svg%3E"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="site-header" data-elevate>
-      <a class="brand" href="#top" aria-label="FlowMane">
-        <span>FM</span>
-        <strong>FlowMane</strong>
+      <a class="brand" href="#top" aria-label="ライバー募集">
+        <span>LV</span>
+        <strong>Liver Audition</strong>
       </a>
       <nav aria-label="主要ナビゲーション">
-        <a href="#workflow">Workflow</a>
-        <a href="#insight">Insight</a>
-        <a href="#launch">Launch</a>
+        <a href="#support">サポート</a>
+        <a href="#flow">応募の流れ</a>
+        <a href="#faq">よくある質問</a>
       </nav>
-      <a class="header-cta" href="#launch">相談する</a>
+      <a
+        class="header-cta"
+        href="https://line-crm-worker.carveout.workers.dev/r/liver-lp-demo?utm_source=github_pages&utm_medium=lp&utm_campaign=liver_demo"
+      >LINEで応募</a>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-backdrop" aria-hidden="true">
-          <div class="dashboard-sheet sheet-a">
-            <div class="sheet-bar">
-              <span></span><span></span><span></span>
-            </div>
-            <div class="sheet-grid">
-              <div class="metric-tile"><small>総流入</small><strong>248</strong></div>
-              <div class="metric-tile"><small>電話完了</small><strong>81</strong></div>
-              <div class="metric-tile"><small>獲得</small><strong>42</strong></div>
-              <div class="metric-tile"><small>初配信</small><strong>18</strong></div>
-            </div>
-            <div class="funnel-visual">
-              <span style="--w: 100%">流入 248</span>
-              <span style="--w: 73%">誘導済み 181</span>
-              <span style="--w: 44%">電話完了 109</span>
-              <span class="muted" style="--w: 18%">離脱・辞退 45</span>
-            </div>
-          </div>
-          <div class="dashboard-sheet sheet-b">
-            <div class="table-row"><b>ホームページ</b><span>38%</span><i></i></div>
-            <div class="table-row"><b>TikTok広告</b><span>24%</span><i></i></div>
-            <div class="table-row"><b>紹介</b><span>52%</span><i></i></div>
-          </div>
+        <div class="hero-media" aria-hidden="true">
+          <img src="./assets/liver-hero.png" alt="" />
         </div>
-
+        <div class="hero-overlay" aria-hidden="true"></div>
         <div class="hero-copy reveal">
-          <p class="eyebrow">Recruit Funnel OS</p>
-          <h1 id="hero-title">FlowMane</h1>
+          <p class="eyebrow">Liver recruitment</p>
+          <h1 id="hero-title">好きなことを、<br />配信の仕事に。</h1>
           <p>
-            流入経路、担当割当、LINE追加、電話、獲得まで。
-            スプレッドシートに散らばる応募者進捗を、現場が迷わない一枚の業務画面へ。
+            雑談、歌、ゲーム、ラジオ配信。あなたに合う活動スタイルを一緒に探しながら、
+            初配信までマネージャーが伴走します。
           </p>
           <div class="hero-actions">
-            <a class="primary-button" href="#workflow">流れを見る</a>
-            <a class="ghost-button" href="#insight">集計を見る</a>
+            <a
+              class="primary-button"
+              href="https://line-crm-worker.carveout.workers.dev/r/liver-lp-demo?utm_source=github_pages&utm_medium=lp&utm_campaign=liver_demo"
+            >LINEで応募する</a>
+            <a class="ghost-button" href="#flow">流れを見る</a>
+          </div>
+          <div class="trust-row" aria-label="応募条件の概要">
+            <span>未経験相談OK</span>
+            <span>スマホから応募</span>
+            <span>顔出しなしも相談可</span>
           </div>
         </div>
       </section>
 
-      <section class="workflow" id="workflow" aria-labelledby="workflow-title">
-        <div class="section-head reveal">
-          <p class="eyebrow">Workflow</p>
-          <h2 id="workflow-title">LINE流入から初配信までを、自然に前へ進める。</h2>
+      <section class="intro" aria-labelledby="intro-title">
+        <div class="intro-copy reveal">
+          <p class="eyebrow">Start point</p>
+          <h2 id="intro-title">「やってみたい」くらいの温度で、まずは大丈夫です。</h2>
         </div>
-        <div class="steps">
-          <article class="step-card reveal">
+        <p class="intro-text reveal">
+          配信経験や実績がなくても、活動できるアプリ、時間帯、配信内容は人によって違います。
+          応募後のヒアリングで、今の生活に合う始め方を一緒に整理します。
+        </p>
+      </section>
+
+      <section class="support" id="support" aria-labelledby="support-title">
+        <div class="section-head reveal">
+          <p class="eyebrow">Support</p>
+          <h2 id="support-title">初配信までに必要な準備を、順番にサポートします。</h2>
+        </div>
+        <div class="support-grid">
+          <article class="support-card reveal">
             <span>01</span>
-            <h3>流入を自動取得</h3>
-            <p>LineHarnessの経由情報を取り込み、応募者・受付LINE・流入日時を登録します。</p>
+            <h3>アプリ選び</h3>
+            <p>
+              IRIAMなど、希望や相性に合わせて活動先を相談できます。すでに気になるアプリがある場合も確認します。
+            </p>
           </article>
-          <article class="step-card reveal">
+          <article class="support-card reveal">
             <span>02</span>
-            <h3>バックオフィスが割当</h3>
-            <p>希望アプリを確認し、対応できるマネージャーへ割り当てます。</p>
+            <h3>プロフィール準備</h3>
+            <p>
+              名前、配信テーマ、初回で話す内容など、リスナーに伝わりやすい形に整えていきます。
+            </p>
           </article>
-          <article class="step-card reveal">
+          <article class="support-card reveal">
             <span>03</span>
-            <h3>現場が結果入力</h3>
-            <p>LINE追加、電話、獲得を最小入力で更新。未対応だけが浮き上がります。</p>
+            <h3>初配信フォロー</h3>
+            <p>
+              初回配信前の不安や確認事項をマネージャーに相談できます。ひとりで抱え込まない進め方です。
+            </p>
           </article>
         </div>
       </section>
 
-      <section class="insight" id="insight" aria-labelledby="insight-title">
-        <div class="insight-copy reveal">
-          <p class="eyebrow">Insight</p>
-          <h2 id="insight-title">経由ごとの詰まりを、その日のうちに見つける。</h2>
+      <section class="fit" aria-labelledby="fit-title">
+        <div class="fit-copy reveal">
+          <p class="eyebrow">For you</p>
+          <h2 id="fit-title">こんな方を募集しています。</h2>
           <p>
-            ファネル、獲得率、マネージャー別の進捗を同じ粒度で確認。
-            施策ごとの温度感を、報告待ちにしません。
+            完成された実績よりも、続けてみたい気持ちを大切にしています。
+            迷っている段階でも、まずはLINEで相談してください。
           </p>
         </div>
-        <div class="insight-panel reveal">
-          <div class="panel-top">
-            <strong>Scout Insight</strong>
-            <span>今月</span>
+        <div class="check-list reveal">
+          <div><b></b><span>話すことや人と関わることが好き</span></div>
+          <div><b></b><span>学校や仕事と両立しながら活動してみたい</span></div>
+          <div><b></b><span>顔出し以外の配信スタイルにも興味がある</span></div>
+          <div><b></b><span>配信を趣味で終わらせず、仕事として挑戦したい</span></div>
+        </div>
+      </section>
+
+      <section class="flow" id="flow" aria-labelledby="flow-title">
+        <div class="section-head reveal">
+          <p class="eyebrow">Entry flow</p>
+          <h2 id="flow-title">応募はLINEから。最短で初回相談へ進めます。</h2>
+        </div>
+        <div class="flow-board reveal">
+          <div class="flow-step">
+            <strong>1</strong>
+            <h3>LINE応募</h3>
+            <p>応募ボタンから公式LINEを追加します。まずは簡単な確認だけで大丈夫です。</p>
           </div>
-          <div class="mini-bars">
-            <label><span>流入</span><b style="--h: 92%"></b><em>180</em></label>
-            <label><span>誘導</span><b style="--h: 72%"></b><em>140</em></label>
-            <label><span>電話</span><b style="--h: 39%"></b><em>76</em></label>
-            <label><span>獲得</span><b style="--h: 21%"></b><em>42</em></label>
+          <div class="flow-step">
+            <strong>2</strong>
+            <h3>ヒアリング</h3>
+            <p>希望アプリ、活動イメージ、配信に使える時間帯などを確認します。</p>
+          </div>
+          <div class="flow-step">
+            <strong>3</strong>
+            <h3>初回相談</h3>
+            <p>マネージャーと話して、所属や活動方針、準備内容を具体化します。</p>
+          </div>
+          <div class="flow-step">
+            <strong>4</strong>
+            <h3>初配信へ</h3>
+            <p>プロフィールや配信内容を整えて、初配信デビューを目指します。</p>
           </div>
         </div>
       </section>
 
-      <section class="launch" id="launch" aria-labelledby="launch-title">
-        <p class="eyebrow">Launch</p>
-        <h2 id="launch-title">まずは受付LINEの流入計測から。</h2>
-        <p>既存の運用を崩さず、必要な手入力だけ残して段階的に自動化します。</p>
-        <a class="primary-button" href="mailto:info@example.com">導入相談をする</a>
+      <section class="faq" id="faq" aria-labelledby="faq-title">
+        <div class="section-head reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">応募前によくある質問</h2>
+        </div>
+        <div class="faq-list">
+          <details class="reveal" open>
+            <summary>未経験でも応募できますか？</summary>
+            <p>応募できます。配信経験がない方でも、初配信までの準備から相談できます。</p>
+          </details>
+          <details class="reveal">
+            <summary>顔出しは必須ですか？</summary>
+            <p>必須ではありません。Vライバーやラジオ形式など、希望に合わせた活動方法を相談できます。</p>
+          </details>
+          <details class="reveal">
+            <summary>スマホだけでも始められますか？</summary>
+            <p>多くの配信はスマホから始められます。必要な準備や環境は初回相談で確認します。</p>
+          </details>
+          <details class="reveal">
+            <summary>応募したら必ず所属になりますか？</summary>
+            <p>まずは説明と相談からです。条件や活動内容を確認したうえで、納得できる形で進めます。</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-labelledby="final-title">
+        <p class="eyebrow">Apply now</p>
+        <h2 id="final-title">少し気になる。<br />その段階から応募できます。</h2>
+        <p>
+          LINE追加後、希望アプリや活動イメージを簡単に確認します。
+          まだ決まっていないことが多くても問題ありません。
+        </p>
+        <a
+          class="primary-button"
+          href="https://line-crm-worker.carveout.workers.dev/r/liver-lp-demo?utm_source=github_pages&utm_medium=lp&utm_campaign=liver_demo"
+        >LINEで応募する</a>
       </section>
     </main>
 

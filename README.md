@@ -1,11 +1,7 @@
-# FlowMane LP Demo
+# Liver LP Demo
 
-Static landing page for GitHub Pages.
+ライバー希望者向けの応募LPデモです。
 
-## Local preview
-
-Open `index.html` directly in a browser.
-
-## GitHub Pages
-
-This repository is configured to publish from the `main` branch root.
+- GitHub Pages: https://enterfans001-eng.github.io/flowmane-lp-demo/
+- CTA: LineHarness のテスト経路 `liver-lp-demo`
+- 目的: LP経由のLINE追加がLineHarnessとFlowManeで追跡できるか検証する
