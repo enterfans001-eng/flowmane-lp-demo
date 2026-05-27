@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FlowMane | Recruit Funnel OS</title>
+    <meta
+      name="description"
+      content="FlowManeは、流入から初配信までの応募者進捗を一元管理するリクルートファネルOSです。"
+    />
+    <meta property="og:title" content="FlowMane | Recruit Funnel OS" />
+    <meta
+      property="og:description"
+      content="LINE流入、担当割当、電話結果、獲得までをひとつの画面で追跡。"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-elevate>
+      <a class="brand" href="#top" aria-label="FlowMane">
+        <span>FM</span>
+        <strong>FlowMane</strong>
+      </a>
+      <nav aria-label="主要ナビゲーション">
+        <a href="#workflow">Workflow</a>
+        <a href="#insight">Insight</a>
+        <a href="#launch">Launch</a>
+      </nav>
+      <a class="header-cta" href="#launch">相談する</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-backdrop" aria-hidden="true">
+          <div class="dashboard-sheet sheet-a">
+            <div class="sheet-bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="sheet-grid">
+              <div class="metric-tile"><small>総流入</small><strong>248</strong></div>
+              <div class="metric-tile"><small>電話完了</small><strong>81</strong></div>
+              <div class="metric-tile"><small>獲得</small><strong>42</strong></div>
+              <div class="metric-tile"><small>初配信</small><strong>18</strong></div>
+            </div>
+            <div class="funnel-visual">
+              <span style="--w: 100%">流入 248</span>
+              <span style="--w: 73%">誘導済み 181</span>
+              <span style="--w: 44%">電話完了 109</span>
+              <span class="muted" style="--w: 18%">離脱・辞退 45</span>
+            </div>
+          </div>
+          <div class="dashboard-sheet sheet-b">
+            <div class="table-row"><b>ホームページ</b><span>38%</span><i></i></div>
+            <div class="table-row"><b>TikTok広告</b><span>24%</span><i></i></div>
+            <div class="table-row"><b>紹介</b><span>52%</span><i></i></div>
+          </div>
+        </div>
+
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Recruit Funnel OS</p>
+          <h1 id="hero-title">FlowMane</h1>
+          <p>
+            流入経路、担当割当、LINE追加、電話、獲得まで。
+            スプレッドシートに散らばる応募者進捗を、現場が迷わない一枚の業務画面へ。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#workflow">流れを見る</a>
+            <a class="ghost-button" href="#insight">集計を見る</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="workflow" id="workflow" aria-labelledby="workflow-title">
+        <div class="section-head reveal">
+          <p class="eyebrow">Workflow</p>
+          <h2 id="workflow-title">LINE流入から初配信までを、自然に前へ進める。</h2>
+        </div>
+        <div class="steps">
+          <article class="step-card reveal">
+            <span>01</span>
+            <h3>流入を自動取得</h3>
+            <p>LineHarnessの経由情報を取り込み、応募者・受付LINE・流入日時を登録します。</p>
+          </article>
+          <article class="step-card reveal">
+            <span>02</span>
+            <h3>バックオフィスが割当</h3>
+            <p>希望アプリを確認し、対応できるマネージャーへ割り当てます。</p>
+          </article>
+          <article class="step-card reveal">
+            <span>03</span>
+            <h3>現場が結果入力</h3>
+            <p>LINE追加、電話、獲得を最小入力で更新。未対応だけが浮き上がります。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="insight" id="insight" aria-labelledby="insight-title">
+        <div class="insight-copy reveal">
+          <p class="eyebrow">Insight</p>
+          <h2 id="insight-title">経由ごとの詰まりを、その日のうちに見つける。</h2>
+          <p>
+            ファネル、獲得率、マネージャー別の進捗を同じ粒度で確認。
+            施策ごとの温度感を、報告待ちにしません。
+          </p>
+        </div>
+        <div class="insight-panel reveal">
+          <div class="panel-top">
+            <strong>Scout Insight</strong>
+            <span>今月</span>
+          </div>
+          <div class="mini-bars">
+            <label><span>流入</span><b style="--h: 92%"></b><em>180</em></label>
+            <label><span>誘導</span><b style="--h: 72%"></b><em>140</em></label>
+            <label><span>電話</span><b style="--h: 39%"></b><em>76</em></label>
+            <label><span>獲得</span><b style="--h: 21%"></b><em>42</em></label>
+          </div>
+        </div>
+      </section>
+
+      <section class="launch" id="launch" aria-labelledby="launch-title">
+        <p class="eyebrow">Launch</p>
+        <h2 id="launch-title">まずは受付LINEの流入計測から。</h2>
+        <p>既存の運用を崩さず、必要な手入力だけ残して段階的に自動化します。</p>
+        <a class="primary-button" href="mailto:info@example.com">導入相談をする</a>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
